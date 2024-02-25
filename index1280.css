@@ -30,6 +30,11 @@
     justify-content: space-between;
     padding: 30px;
     overflow-y: auto;
+    -ms-overflow-style: none;
+}
+
+#headerContainer::-webkit-scrollbar{
+    display:none;
 }
 
 /* headerTitle */
